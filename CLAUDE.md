@@ -13,6 +13,9 @@ Protocol for new GitHub repo:
 7. create NEW\_REPO under DaveKaplan/ (default) or BiffSully/ (if user specifies)
 8. clone NEW\_REPO locally in PATH\_TO\_SOURCE
 9. build NEW\_REPO
-10. prompt user to test the build
-11. ask user whether to delete "\_\_TEMP\_" + LOCAL\_PROJECT folder \[Yes | No]
+10. replace any secrets in launchSettings.json with placeholders (e.g., YOUR\_KEY\_HERE)
+11. add .gitignore (exclude bin/ and obj/)
+12. commit and push NEW\_REPO to GitHub (initial commit)
+13. prompt user to test the build
+14. ask user whether to delete "\_\_TEMP\_" + LOCAL\_PROJECT folder \[Yes | No]
 
